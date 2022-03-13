@@ -27,21 +27,11 @@
       class="navbar navbar-expand-lg px-5 navbar-dark white-mode shadow"
     >
       <a id="logo" class="navbar-brand" href="#"
-        ><h1 id="logoText" class="white-mode">Where in the world?</h1>
+        ><h3 id="logoText" class="white-mode">Where in the world?</h3>
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarText"
-        aria-controls="navbarText"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse darkModeBtn" id="navbarText">
-        <h2 class="ms-auto" onclick="toggleDark()">Dark Mode</h2>
+
+      <div class="d-flex ms-auto darkModeBtn" id="navbarText">
+        <h3 class="ms-auto" onclick="toggleDark()">Dark Mode</h3>
       </div>
     </nav>
     <div class="mx-lg-5 white-mode" id="main">
@@ -74,7 +64,10 @@
           </select>
         </div>
       </div>
-      <div class="row justify-content-between mb-4 mt-4" id="post-layout">
+      <div
+        class="row justify-content-between align-items-center mb-4 mt-4 ps-lg-0 ps-5"
+        id="post-layout"
+      >
         <h1>Loading...</h1>
       </div>
     </div>
